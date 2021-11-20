@@ -1,0 +1,10 @@
+youtube-dl -F url
+youtube-dl -f format_code url
+youtube-dl url
+-f bestvideo+bestaudio
+-f best
+ffmpeg -i video.mp4 -i audio.wav -c copy output.mkv
+
+
+
+
